@@ -1,0 +1,26 @@
+{
+    "classes": [
+      {
+        "id": 1,
+        "name": "Mathematics 101",
+        "instructor": "Professor Smith",
+        "room": "Room 101",
+        "schedule": "Monday & Wednesday, 9:00 AM - 10:30 AM"
+      },
+      {
+        "id": 2,
+        "name": "History 202",
+        "instructor": "Professor Johnson",
+        "room": "Room 202",
+        "schedule": "Tuesday & Thursday, 11:00 AM - 12:30 PM"
+      },
+      {
+        "id": 3,
+        "name": "Computer Science 301",
+        "instructor": "Professor Davis",
+        "room": "Room 303",
+        "schedule": "Friday, 1:00 PM - 3:00 PM"
+      }
+    ]
+  }
+  

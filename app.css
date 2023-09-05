@@ -1,0 +1,204 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and text color to the body */
+body {
+    background-color: #a0f8af;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Style the header with a background color, text color, and padding */
+header {
+    background-color: #146633;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Increase the font size and font weight for the header text */
+header h1 {
+    font-size: 0px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    margin: 0 auto; /* Center the header text */
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style the main content sections */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #55ac64;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #0a0404;
+}
+
+/* Fix h2 selector typo (remove the comma) */
+h2 {
+    color: #000000;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #146633;
+    color: #fff;
+}
+
+/* Add additional styling for specific elements as needed */
+
+/* Example: Style links in the navigation menu on hover */
+nav a:hover {
+    color: #0078d4;
+}
+
+/* Add this CSS to style the OLFU logo */
+#olfu-logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Add some margin for spacing */
+    float: left; /* Float the logo to the left */
+}
+
+/* Remove the underline from links */
+a {
+    text-decoration: none;
+}
+
+/* Center the "About Me" section */
+#profile {
+    text-align: center; /* Center-align the text within the section */
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the section horizontally within its container */
+}
+
+/* Center-align the text within h2 and p elements */
+h2, p {
+    margin-top: 40px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #8bcc96;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Center the profile picture and make it smaller */
+#profile img {
+    max-width: 300px; /* Adjust the maximum width as needed */
+    width: 100%; /* Make the image responsive */
+    display: block;
+    margin:  auto; /* Center the image horizontally */
+    border-radius: 50%;
+}
+#schedule {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #55ac64;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#schedule h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#schedule img {
+    max-width: 100%; /* Reduce the maximum width to make the image smaller */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+/* Add styles for the "Project Ideas" section */
+#project-ideas {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #55ac64;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#project-ideas h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project-card h3 {
+    color: #333;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.project-card p {
+    color: #000000;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.project-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #146633;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.project-card a:hover {
+    background-color: #0c4422;
+}
+#css-logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Add some margin for spacing */
+    float: right; /* Float the logo to the left */
+}
